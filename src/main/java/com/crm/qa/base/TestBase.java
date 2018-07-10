@@ -22,8 +22,8 @@ public class TestBase {
 	public TestBase() {
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("C:\\Users\\css100409\\eclipse-workspace\\FreeCRMTest\\src\\main\\java\\com\\crm"
-					+ "\\qa\\config\\config.properties");
+			FileInputStream ip = new FileInputStream("C:\\Users\\css100409\\eclipse-workspace\\PageObjectModel\\src\\main\\"
+					+ "java\\com\\crm\\qa\\config\\config.properties");
 			prop.load(ip);
 		}  catch (Exception e) {
 			e.printStackTrace();
